@@ -3,7 +3,7 @@ import math
 import feature
 
 
-def bpt_b2(master, a, b, c, choose):
+def bpt_b2(master, a, b, c, d, choose):
     if a == 0:
         feature.alert_box(1)
     denta = pow(b, 2) - (4 * a * c)
